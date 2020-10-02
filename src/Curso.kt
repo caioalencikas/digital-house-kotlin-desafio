@@ -1,5 +1,5 @@
 class Curso(val nomeCurso: String, val codigoCurso: Int, val quantidadeMaximaAlunos: Int) {
-
+ 
     var professorTitular: ProfessorTitular? = null
     var professorAdjunto: ProfessorAdjunto? = null
     var listaAlunosMatriculados = mutableListOf<Aluno>()
